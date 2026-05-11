@@ -1,0 +1,19 @@
+files:
+- app.py
+- gui.py
+- queries.py
+- connection.py
+database files:
+- updatedbeautysalon.sql
+- fixedconnectionerror_code.sql
+
+how to run:
+1. setup database locally
+2. open the folder in vscode or terminal
+3. update connection.py with mysql username 'appuser' and password 'AppPass123!'
+4. make sure mysql-connector-python is installed:
+   pip install mysql-connector-python or 
+   pip3 install mysql-connector-python
+5. run:
+   python app.py or
+   python3 app.py
